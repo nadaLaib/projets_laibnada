@@ -1,0 +1,13 @@
+.photoFavori{
+    width: 500px;
+}
+
+.input-label {
+    position: fixed;
+    top: 20px;
+  }
+.admirer{
+    font-size: larger;
+    margin-top: 5%;
+    text-decoration: underline;
+}

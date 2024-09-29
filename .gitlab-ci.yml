@@ -1,0 +1,10 @@
+pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - cp -r Page_Projet_LaibNada/* .public/
+  artifacts:
+    paths:
+      - .public
+  only:
+    - main

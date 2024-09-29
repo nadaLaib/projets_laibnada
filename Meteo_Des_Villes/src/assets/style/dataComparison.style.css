@@ -1,0 +1,30 @@
+.tableComparison{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2%;
+  margin-bottom: 2%; 
+}
+  
+.tableComparison th {
+  background-color: #fbff00;
+  border: 1px solid #ff8800; 
+  padding: 8px; 
+  text-align: left; 
+}
+.tableComparison tbody tr:nth-child(2) {
+    font-weight: bold;
+    background-color: rgb(251, 251, 145);
+}
+
+.tableComparison tbody tr:nth-child(2) td:first-child {
+    font-weight: bold;
+}
+.tableComparison td {
+  border: 1px solid #ff8800; 
+  padding: 8px; 
+}
+  
+  
+  
+
+  

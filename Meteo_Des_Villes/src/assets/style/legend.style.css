@@ -1,0 +1,34 @@
+.legend{
+    position: absolute;
+    top: 140px; 
+    right: 50%; 
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    padding: 1px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
+}
+.legendtitre{
+    font-size: 16px;
+    font-weight:700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.legend-ville_selec,.legend-ville_fav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legendColor{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #000000;
+
+}
+
+.legendVilleSelec,.legendVilleFav{
+    font-size: 14px;
+}
