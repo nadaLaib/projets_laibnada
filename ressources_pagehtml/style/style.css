@@ -14,10 +14,16 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1{
+h1 {
     text-align: center;
     color: #333;
     margin-bottom: 20px;
+    border: 2px solid black;
+    width: 50%; /* Largeur à 50% de la page */
+    margin-left: auto; /* Centre à gauche */
+    margin-right: auto; /* Centre à droite */
+    padding: 10px; /* Ajoute un peu d'espace à l'intérieur */
+    border-radius: 5px; /* Coins arrondis, optionnel */
 }
 
 ul{
